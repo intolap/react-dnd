@@ -20,7 +20,7 @@ export default function Dragandrop() {
         const item_container = event.dataTransfer.getData("item_container");
         console.log(item);
         event.target.appendChild(document.getElementById(item));
-        console.log('dropped');
+        console.log('dropped inside - '+item_container);
     }
 
     function allowDrop(event) {
