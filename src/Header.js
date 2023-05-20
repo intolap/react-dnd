@@ -3,6 +3,9 @@ import { Link } from 'react-router-dom'
 
 export default function Header() {
     return (
+        <>
+        <Link to="https://zingy-palmier-f16aba.netlify.app/">Live URL</Link>
+        
         <ul className="nav">
             <li><Link to="/">Home</Link></li>
             <li><Link to="/draganddrop/">Dragandrop</Link></li>
@@ -11,5 +14,6 @@ export default function Header() {
             <li><Link to="/setfocus/">SetFocus</Link></li>
             <li><Link to="/facebook/">Facebook</Link></li>
         </ul>
+        </>
     )
 }
