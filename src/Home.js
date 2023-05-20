@@ -1,7 +1,17 @@
 import React from 'react'
 
 export default function Home() {
+  let a = 1;
   return (
-    <div>This project is a collection of small utility examples.</div>
-  )
+ <>
+    <div>Parent div</div>
+    {( a === 1 ) ? (
+      <div> + Add Tags</div>
+    )
+    :
+    <></>
+    }
+  </>
+  )
+
 }
