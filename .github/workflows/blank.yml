@@ -29,4 +29,4 @@ jobs:
         server: ftp.intolap.com
         username: developer@node.intolap.com
         password: developer@node.intolap.com
-        server-dir: /
+        server-dir: /react-dnd
