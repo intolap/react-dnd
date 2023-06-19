@@ -13,6 +13,8 @@ export default function Header() {
             <li><Link to="/html2canvas/">Html2Canvas</Link></li>
             <li><Link to="/setfocus/">SetFocus</Link></li>
             <li><Link to="/facebook/">Facebook</Link></li>
+            <li><Link to="/placefinder/">Place Finder</Link></li>
+            <li><Link to="/SearchLocationInput/">SearchLocationInput</Link></li>
         </ul>
         </>
     )

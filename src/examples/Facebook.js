@@ -6,7 +6,7 @@ export default function Facebook() {
         <div>
             {/* default */}
             <FacebookLogin
-                appId="481295407487888"
+                appId="407996201254961"
                 onSuccess={(response) => {
                     console.log('Login Success!', response);
                 }}
